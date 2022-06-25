@@ -170,6 +170,7 @@
                         </div> <!-- end of tab-pane -->
                         <!-- end of tab -->
                         {{-- End Forum --}}
+                        @include('sweetalert::alert')
 </body>
 
 </html>

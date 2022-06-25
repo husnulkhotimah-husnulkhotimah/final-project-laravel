@@ -218,6 +218,35 @@
                             <!-- end of tab -->
                             {{-- End Forum --}}
 
+                            {{-- EBook --}}
+
+                            <div class="container mt-3">
+                                <h2>Description</h2>
+                                <div class="row mt-3">
+                                    <div class="col-lg-12">
+                                        <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top"
+                                                src="{{ asset('frontend/images/ebook1.png') }}"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Laravel Book</h5>
+                                                <a href="/download" class="btn btn-primary">Download Ebook</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top"
+                                                src="{{ asset('frontend/images/ebook2.png') }}"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Laravel Book</h5>
+                                                <a href="/download" class="btn btn-primary">Download Ebook</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
 
                             <!-- Description -->
 
@@ -412,6 +441,8 @@
             <script src="{{ asset('frontend/js/jquery.magnific-popup.js') }}"></script> <!-- Magnific Popup for lightboxes -->
             <script src="{{ asset('frontend/js/validator.min.js') }}"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
             <script src="{{ asset('frontend/js/scripts.js') }}"></script> <!-- Custom scripts -->
+            @stack('script')
+            @include('sweetalert::alert')
 </body>
 
 </html>

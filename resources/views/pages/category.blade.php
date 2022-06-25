@@ -154,6 +154,7 @@
         </div> <!-- end of container -->
         <!-- end of category -->
     </div>
+    @include('sweetalert::alert')
 </body>
 
 </html>

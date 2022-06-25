@@ -63,6 +63,6 @@
             </div>
         </div>
     @empty
-        <h4>Tidak ada jawaban</h4>
+        <h4>Belum ada jawaban</h4>
     @endforelse
 @endsection

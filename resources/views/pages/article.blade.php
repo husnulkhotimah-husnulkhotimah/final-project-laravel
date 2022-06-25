@@ -162,6 +162,8 @@
         </div> <!-- end of container -->
     </div> <!-- end of cards-1 -->
     <!-- end of article -->
+    @stack('script')
+    @include('sweetalert::alert')
 </body>
 
 </html>

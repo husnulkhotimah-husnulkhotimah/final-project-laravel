@@ -1,7 +1,6 @@
 @extends('pages.forum')
 
 @section('pertanyaan')
-    <h1 class="text-center">List Pertanyaan</h1>
     <div class="row">
         @forelse ($pertanyaan as $item)
             <div class="col-4">

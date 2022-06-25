@@ -9,7 +9,7 @@
                         alt="Card image cap">
                     <div class="card-body">
                         <h2>{{ $item->judul }}</h2>
-                        <p class="card-text">{{ Str::limit($item->isi, 30) }}</p>
+                        <p class="card-text">{!! Str::limit($item->isi, 30) !!}</p>
                         @auth
                             <a href="/artikel/{{ $item->id }}" class="btn btn-primary">Lihat</a>
                             <a href="/artikel/{{ $item->id }}/edit" class="btn btn-primary">Edit</a>

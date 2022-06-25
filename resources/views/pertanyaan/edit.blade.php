@@ -21,10 +21,9 @@
 
                 <div class="form-group">
                     <label for="isi">Isi</label>
-                    <input type="text" name="isi" class="form-control" id="isi"
-                        value="{{ old('isi', $pertanyaan->isi) }}">
+                    <textarea name="isi" class="form-control" id="isi" value="{{ old('isi', $pertanyaan->isi) }}"></textarea>
                     @error('isi')
-                        <div class="alert alert-danger">{{ $message }}</divbaz>
+                        <div class="alert alert-danger">{{ $message }}</div>
                     @enderror
                 </div>
 
@@ -59,7 +58,7 @@
             </div>
 
             <div class="card-footer">
-                <button type="submit" class="btn btn-primary">Edit</button>
+                <button type="submit" class="btn btn-primary">Edit Pertanyaan</button>
             </div>
         </form>
     </div>
