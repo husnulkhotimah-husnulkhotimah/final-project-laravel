@@ -1,7 +1,7 @@
 @extends('pages.forum')
 
 @section('pertanyaan')
-    <div class="row">
+    <div class="row mt-3">
         @forelse ($pertanyaan as $item)
             <div class="col-4">
                 <div class="card">

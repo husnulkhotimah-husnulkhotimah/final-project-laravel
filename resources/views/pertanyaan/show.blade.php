@@ -24,8 +24,7 @@
                     <em>Kategori: {{ $pertanyaan->kategori->nama_kategori }}</em>
                     <hr>
                     <p class="card-text">{{ $pertanyaan->isi }}</p>
-                    <h4>Lampiran Gambar Error</h4>
-                    <img class="card-img-top" src="{{ asset('/gambar/' . $pertanyaan->gambar) }}" height="400px"
+                    <img class="card-img-top" src="{{ asset('/gambar/' . $pertanyaan->gambar) }}" 
                         alt="Card image cap">
                 </div>
             </div>
