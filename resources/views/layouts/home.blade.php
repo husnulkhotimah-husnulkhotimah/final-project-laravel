@@ -110,7 +110,7 @@
                         <div class="text-container">
                             <h1>DevSpace</h1>
                             <p class="p-large">DevSpace adalah forum tanya jawab untuk developer di Indonesia, kamu bisa
-                                bertanya dan membuat artikel untuk kamu bagikan ke developer laiinya</p>
+                                bertanya dan membuat artikel untuk kamu bagikan ke developer lainnya</p>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                     <div class="col-lg-6 col-xl-7">
