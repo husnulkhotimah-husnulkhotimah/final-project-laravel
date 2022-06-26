@@ -149,15 +149,11 @@
                     <h2>Article</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
                     <!-- Card -->
                     <div>
                         @yield('artikel')
                     </div>
                     <!-- end of card -->
-
-                </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of cards-1 -->
