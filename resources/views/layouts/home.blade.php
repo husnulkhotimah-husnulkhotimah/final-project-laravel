@@ -150,7 +150,7 @@
                 </div> <!-- end of col -->
 
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('frontend/images/forum.png')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Forum</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -159,7 +159,7 @@
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('frontend/images/kategori.png')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Kategori</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -168,7 +168,7 @@
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="{{asset('frontend/images/artikel.png')}}" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Artikel</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -249,7 +249,7 @@
                                                                 amet consectetur adipisicing elit. Alias unde fugiat
                                                                 consequatur blanditiis possimus, autem similique
                                                                 fugit ea velit non.</div>
-                                                            <div class="testimonial-author">Yusuf Setyawan -
+                                                            <div class="testimonial-author">Yusuf Setiyawan -
                                                                 Developer</div>
                                                         </div> <!-- end of text-wrapper -->
                                                     </div> <!-- end of swiper-slide -->
@@ -333,7 +333,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="footer-col first">
-                                <h4>About Forum Diskusi</h4>
+                                <h4>About DevSpace</h4>
                                 <p class="p-small">We're passionate about designing and developing one of the best
                                     marketing apps in the market</p>
                             </div>
