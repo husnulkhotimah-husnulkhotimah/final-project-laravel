@@ -1,7 +1,7 @@
 @extends('pages.category')
 
 @section('kategori')
-    <div class="row">
+    <div class="row mt-5">
         @forelse ($kategori as $item)
             <div class="col-4">
                 <div class="card">

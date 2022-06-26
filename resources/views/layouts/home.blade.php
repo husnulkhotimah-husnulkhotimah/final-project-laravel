@@ -73,7 +73,7 @@
                         <a class="nav-link page-scroll" href="/">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="/forum">FORUM</a>
+                        <a class="nav-link page-scroll" href="/pertanyaan">FORUM</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="/artikel">ARTICLE</a>
@@ -144,9 +144,9 @@
     <!-- Category -->
     <div class="cards-1">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Explore Our Product</h2>
+            <div class="row ">
+                <div class="col-lg-12 ml-10">
+                    <h2 class="mb-5">Explore Our Product</h2>
                 </div> <!-- end of col -->
 
                 <div class="card" style="width: 18rem;">
