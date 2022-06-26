@@ -143,13 +143,8 @@
     <!-- Start Forum -->
     <div id="features" class="tabs">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
                     <h2>Forum</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-            <div class="row">
-                <div class="col-lg-12">
+              
 
                     <!-- Tabs Content -->
                     <div class="tab-content" id="argoTabsContent">
@@ -158,7 +153,8 @@
                         <div class="tab-pane fade show active mt-3" id="tab-1" role="tabpanel"
                             aria-labelledby="tab-1">
                             <div class="row">
-
+                                <div class="col">
+                           
 
                                 <div>
                                     @yield('pertanyaan')
