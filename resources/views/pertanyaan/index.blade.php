@@ -10,7 +10,7 @@
                     <div class="card-body">
                         <h2>{{ $item->judul }}</h2>
                         <p class="card-text">{{ Str::limit($item->isi, 100) }}</p>
-                        <a href="/pertanyaan/{{ $item->id }}" class="btn btn-primary">Lihat</a>
+                        <a href="/pertanyaan/{{ $item->id }}" class="btn btn-primary">Lihat Diskusi</a>
                     </div>
                 </div>
             </div>
