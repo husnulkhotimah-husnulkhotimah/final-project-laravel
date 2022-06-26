@@ -3,7 +3,7 @@
 @section('content')
     <div class="card card-primary ml-3 mt-3">
         <div class="card-header">
-            <h3 class="card-title">Edit</h3>
+            <h3 class="card-title">Ubah Pertanyaan</h3>
         </div>
 
         <form action="/pertanyaan/{{ $pertanyaan->id }}" method="POST" enctype="multipart/form-data">
