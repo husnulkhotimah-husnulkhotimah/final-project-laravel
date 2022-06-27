@@ -38,13 +38,13 @@
 <body data-spy="scroll" data-target=".fixed-top">
 
     <!-- Preloader -->
-    {{-- <div class="spinner-wrapper">
+    <div class="spinner-wrapper">
         <div class="spinner">
             <div class="bounce1"></div>
             <div class="bounce2"></div>
             <div class="bounce3"></div>
         </div>
-    </div> --}}
+    </div>
     <!-- end of preloader -->
 
 
@@ -145,34 +145,42 @@
     <div class="cards-1">
         <div class="container">
             <div class="row ">
+<<<<<<< HEAD
                 <div class="col-lg-12 ">
                     <h2 class="mb-5">Explore Our Product</h2>
+=======
+                <div class="col-lg-12 ml-10">
+                    <h2 class="mb-5 title">Explore Our Product</h2>
+>>>>>>> aa26c6660ea1a7e1a51af7d8038cfdd0fb3a0988
                 </div> <!-- end of col -->
 
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('frontend/images/forum.png')}}" alt="Card image cap">
+                    <img class="card-img-top mb-3" src="{{ asset('frontend/images/forum.png') }}"
+                        alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Forum</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="/pertanyaan" class="btn btn-primary">Explore</a>
+                        <a href="/pertanyaan" class="btn btn-primary text-decoration-none">Explore</a>
                     </div>
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('frontend/images/kategori.png')}}" alt="Card image cap">
+                    <img class="card-img-top mb-3" src="{{ asset('frontend/images/kategori.png') }}"
+                        alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Kategori</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="/kategori" class="btn btn-primary">Explore</a>
+                        <a href="/kategori" class="btn btn-primary text-decoration-none">Explore</a>
                     </div>
                 </div>
 
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{asset('frontend/images/artikel.png')}}" alt="Card image cap">
+                    <img class="card-img-top mb-3" src="{{ asset('frontend/images/artikel.png') }}"
+                        alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Artikel</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <a href="/artikel" class="btn btn-primary">Explore</a>
+                        <a href="/artikel" class="btn btn-primary text-decoration-none">Explore</a>
                     </div>
                 </div>
 
@@ -187,24 +195,26 @@
                     <div class="col-lg-12">
                         {{-- EBook --}}
                         <div class="container mt-3">
-                            <h2>Ebook</h2>
+                            <h2 class="mb-5 title">Ebook</h2>
                             <div class="row mt-3">
                                 <div class="col-lg-12">
                                     <div class="card" style="width: 18rem;">
                                         <img class="card-img-top" src="{{ asset('frontend/images/ebook1.png') }}"
                                             alt="Card image cap">
-                                        <div class="card-body">
+                                        <div class="card-body mt-2">
                                             <h5 class="card-title">Laravel Book</h5>
-                                            <a href="/download" class="btn btn-primary">Download Ebook</a>
+                                            <a href="/download" class="btn btn-primary text-decoration-none">Download
+                                                Ebook</a>
                                         </div>
                                     </div>
 
                                     <div class="card" style="width: 18rem;">
-                                        <img class="card-img-top" src="{{ asset('frontend/images/ebook2.png') }}"
+                                        <img class="card-img-top" src="{{ asset('frontend/images/ebook1.png') }}"
                                             alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Laravel Book</h5>
-                                            <a href="/download" class="btn btn-primary">Download Ebook</a>
+                                        <div class="card-body mt-2">
+                                            <h5 class="card-title">PHP Book</h5>
+                                            <a href="/download" class="btn btn-primary text-decoration-none">Download
+                                                Ebook</a>
                                         </div>
                                     </div>
 
@@ -215,11 +225,11 @@
                         <!-- Description -->
 
                         <div class="container mt-3">
-                            <h2>Description</h2>
+                            <h2 class="mb-5 title">Description</h2>
                             <div class="row mt-3">
                                 <div class="col-lg-12">
                                     <div class="p-heading mt-10">Forum Diskusi Dibuat Untuk Memenuhi Final Project
-                                        Akhir</div>
+                                        Akhir kelas Laravel - Web Development di Sanbercode</div>
                                 </div>
                             </div>
                         </div>
@@ -228,7 +238,7 @@
                         {{-- Team --}}
                         <div class="slider-2">
                             <div class="container">
-                                <h2>Teams</h2>
+                                <h2 class="mb-5 title">Teams</h2>
                                 <div class="row">
                                     <div class="col-lg-12">
 

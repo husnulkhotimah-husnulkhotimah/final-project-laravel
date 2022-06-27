@@ -86,7 +86,7 @@ Route::resource('jawaban', 'JawabanController')->only([
 
 Route::get('/download', function () {
     $pdf = App::make('dompdf.wrapper');
-    $pdf->loadHTML('<h1>Belajar Laravel Book</h1>');
+    $pdf->loadHTML('<h1>Belajar Laravel EBook</h1>');
     return $pdf->stream();
 });
 
