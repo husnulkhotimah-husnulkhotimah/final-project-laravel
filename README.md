@@ -14,4 +14,4 @@
 ![img](/ERD.png)
 <hr>
 <p>Link Demo Aplikasi : https://youtu.be/LEC-I8vdvrU</p>
-<a>Link Deploy : https://devspace.id/  </a>
+<p>Link Deploy : https://devspace.id</p>

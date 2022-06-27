@@ -145,13 +145,8 @@
     <div class="cards-1">
         <div class="container">
             <div class="row ">
-<<<<<<< HEAD
-                <div class="col-lg-12 ">
-                    <h2 class="mb-5">Explore Our Product</h2>
-=======
                 <div class="col-lg-12 ml-10">
                     <h2 class="mb-5 title">Explore Our Product</h2>
->>>>>>> aa26c6660ea1a7e1a51af7d8038cfdd0fb3a0988
                 </div> <!-- end of col -->
 
                 <div class="card" style="width: 18rem;">
