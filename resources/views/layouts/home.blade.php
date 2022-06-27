@@ -145,7 +145,7 @@
     <div class="cards-1">
         <div class="container">
             <div class="row ">
-                <div class="col-lg-12 ml-10">
+                <div class="col-lg-12 ">
                     <h2 class="mb-5">Explore Our Product</h2>
                 </div> <!-- end of col -->
 

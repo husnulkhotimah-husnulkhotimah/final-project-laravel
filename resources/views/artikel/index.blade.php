@@ -5,7 +5,7 @@
         @forelse ($artikel as $item)
 <div class="card-group">
     <div class="card">
-      <img class="card-img-top" src="{{ asset('/gambar/' . $item->gambar) }}" alt="Card image cap">
+      <img class="card-img-top" src="{{ asset('/gambar/' . $item->gambar) }}" alt="Card image cap" width="200px" height="220px">
       <div class="card-body">
         <h5 class="card-title">{{ $item->judul }}</h5>
         <p class="card-text">{!! Str::limit($item->isi, 30) !!}</p>

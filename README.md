@@ -16,11 +16,7 @@
 <h3>ERD</h3>
 ![img](ERD.png)
 <hr>
-<h2>Link video</h2>
-<p>Link Demo Aplikasi : </p>
-<p>Link Deploy :  </p>
-<p>Login admin : <br><br>
-email :  <br>
-password : 
-</p>
+
+<p>Link Demo Aplikasi : https://youtu.be/LEC-I8vdvrU</p>
+<p>Link Deploy :  https://devspace.id/ </p>
 
