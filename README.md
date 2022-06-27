@@ -19,7 +19,6 @@
 <p>Link Deploy :  https://devspace.id/ </p>
 
 =======
-<h2>Link video</h2>
 <p>Link Demo Aplikasi : </p>
 <a>Link Deploy : https://devspace.id/  </a>
 >>>>>>> aa26c6660ea1a7e1a51af7d8038cfdd0fb3a0988
